@@ -1,0 +1,18 @@
+{
+	"db": {
+		"name": "db",
+		"connector": "memory",
+		"file": "storage/data.json"
+	},
+	"db_productive": {
+		"name": "db_productive",
+		"connector": "memory",
+		"file": "storage/data_dbprod.json"
+	},
+  "mongoatlas": {
+    "url": "mongodb://beta_fiori:87!dhE#64$39i5@206.130.136.190,206.130.136.190:20680/test_db_sapfiori?ssl=false&authSource=admin&retryWrites=false",
+    "database": "beta_fiori",
+    "name": "mongoatlas",
+    "connector": "mongodb"
+  }
+}

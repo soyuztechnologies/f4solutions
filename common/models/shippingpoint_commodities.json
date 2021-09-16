@@ -1,0 +1,56 @@
+{
+  "name": "shippingpoint_commodities",
+  "plural": "shippingpoint_commoditiess",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "itemSizeDesc": {
+      "type": "string"
+    },
+    "demandTone": {
+      "type": "string"
+    },
+    "reportingCity": {
+      "type": "string"
+    },
+    "low_high_price": {
+      "type": "object"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "reportDate": {
+      "type": "date"
+    },
+    "organic": {
+      "type": "boolean"
+    },
+    "supplyTone": {
+      "type": "string"
+    },
+    "priceComment": {
+      "type": "string"
+    },
+    "basisOfSale": {
+      "type": "string"
+    }
+  },
+  "scope":{
+
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}
